@@ -1,127 +1,66 @@
-# 🚀 SkillTrace
+# SkillTrace
 
 **Track your skills. Identify your gaps. Build your future.**
 
-SkillTrace is a skill-tracking project designed to help users organize their skills, monitor their progress, identify areas for improvement, and plan their learning journey.
+SkillTrace is a responsive skill-tracking dashboard that helps learners organize skills, monitor progress, and maintain learning goals.
 
-## ✨ Features
+## Features
+- Add, edit, and delete skills.
+- Categorize skills and record beginner, intermediate, or advanced level.
+- Track progress from 0% to 100%.
+- Automatically label skills as Not started, In progress, or Completed.
+- Search skills and filter by progress status.
+- View total skills, completed skills, active skills, and average progress.
+- Add, complete, and delete learning goals.
+- Save data in browser Local Storage; no backend or account is required.
+- Responsive layout for desktop, tablet, and mobile.
 
-- 📊 **Skill Tracking** — Keep track of skills and learning progress.
-- 🎯 **Goal Setting** — Set learning goals and work toward them.
-- 📈 **Progress Monitoring** — Review skill development over time.
-- 🔍 **Skill Gap Identification** — Identify areas that need improvement.
-- 🗂️ **Organized Learning** — Manage skills and learning priorities in one place.
-- 💡 **Continuous Improvement** — Support consistent learning and career development.
+## Tech Stack
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Browser Local Storage
 
-*Note: Update this feature list to match the functionality implemented in your project.*
+## Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nikita-bharti18/SkillTrace.git
+   ```
+2. Open the folder:
+   ```bash
+   cd SkillTrace
+   ```
+3. Open `index.html` in your browser. You can also use the VS Code Live Server extension.
 
-## 🛠️ Tech Stack
-
-Update the technologies below according to your implementation.
-
-- **Frontend:** HTML, CSS, JavaScript / React
-- **Backend:** Java / Spring Boot / Node.js / Python
-- **Database:** MySQL / MongoDB / PostgreSQL
-- **Tools:** Git and GitHub
-
-## 📁 Project Structure
-
+## Project Structure
 ```text
 SkillTrace/
-├── frontend/       # User interface, if applicable
-├── backend/        # Server-side code, if applicable
-├── database/       # Database scripts, if applicable
-├── screenshots/    # Application screenshots
-├── docs/           # Documentation
+├── index.html
+├── style.css
+├── script.js
+├── README.md
 ├── .gitignore
-├── LICENSE
-└── README.md
+└── LICENSE
 ```
 
-*Your actual folder structure may differ.*
+## How to Use
+1. Select **Add a skill**.
+2. Enter the skill name, category, current level, and progress.
+3. Edit or delete skills as your learning changes.
+4. Search or filter your skill list.
+5. Add learning goals and check them off when complete.
 
-## ⚙️ Getting Started
+**Note:** Data is stored in the current browser using Local Storage. Clearing browser data will remove saved skills and goals.
 
-### Prerequisites
+## Future Improvements
+- User accounts and cloud synchronization.
+- Skill-gap analytics and progress charts.
+- Personalized learning recommendations.
+- Export progress reports.
+- Learning reminders and milestones.
 
-Install the tools required by your technology stack, such as Git, the relevant language runtime, and a database if needed.
+## Author
+**Nikita Bharti**  
+[GitHub](https://github.com/nikita-bharti18) · [LinkedIn](https://www.linkedin.com/in/nikita-bharti-33308129a/)
 
-### Installation
-
-**1. Clone the repository**
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-**2. Open the project folder**
-
-```bash
-cd SkillTrace
-```
-
-**3. Install dependencies**
-
-Run the package manager command appropriate for your project. For example, for a Node.js application:
-
-```bash
-npm install
-```
-
-**4. Configure environment variables**
-
-Set up any required configuration values or environment variables. Never upload passwords, API keys, or other secrets to GitHub.
-
-**5. Start the application**
-
-For a project configured with a development script, you may use:
-
-```bash
-npm run dev
-```
-
-Replace these example commands with the actual commands for your project.
-
-## 🖼️ Screenshots
-
-Add screenshots of your application's interface and main features.
-
-```md
-![SkillTrace Dashboard](screenshots/dashboard.png)
-```
-
-## 🗺️ Future Improvements
-
-- [ ] Add detailed skill analytics.
-- [ ] Introduce personalized learning recommendations.
-- [ ] Improve progress visualization.
-- [ ] Add user authentication, if required.
-- [ ] Create a responsive interface for mobile devices.
-- [ ] Add automated tests and documentation.
-
-## 🤝 Contributing
-
-Contributions and suggestions are welcome!
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Make your changes.
-4. Commit and push your changes.
-5. Submit a pull request.
-
-## 📄 License
-
-Add your chosen open-source license to the repository and update this section accordingly.
-
-## 👩‍💻 Author
-
-**Nikita Bharti**
-
-- GitHub: [@nikita-bharti18](https://github.com/nikita-bharti18)
-- LinkedIn: [Nikita Bharti](https://www.linkedin.com/in/nikita-bharti-33308129a/)
-
----
-
-⭐ If you find SkillTrace useful, consider giving the repository a star!
-
-**Learn continuously. Track your growth. Build your future.**
+If you find SkillTrace useful, consider giving the repository a ⭐.

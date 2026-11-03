@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SkillTrace | Track Your Growth</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+<aside><a class="logo" href="#">✦ SkillTrace</a><p class="muted tiny">WORKSPACE</p><a class="nav active" href="#overview">▦ &nbsp; Overview</a><a class="nav" href="#skills">◈ &nbsp; My Skills</a><a class="nav" href="#goals">◎ &nbsp; Learning Goals</a><div class="aside-note"><b>Small steps add up.</b><p>Consistency turns what you learn into what you can do.</p></div><div class="profile"><span>NB</span><div><b>Nikita Bharti</b><small>Personal workspace</small></div></div></aside>
+<main id="overview">
+<header><span class="muted">Workspace / Overview</span><button class="primary" id="addOpen">＋ Add a skill</button></header>
+<section class="welcome"><div><p class="eyebrow">YOUR PERSONAL GROWTH SPACE</p><h1>Keep growing, <em>Nikita.</em></h1><p class="muted">Every skill you build is a step toward your next opportunity.</p></div><div class="art">↗</div></section>
+<section class="stats"><article><label>Total skills</label><strong id="total">0</strong><small>Skills in your learning stack</small></article><article><label>In progress</label><strong id="active">0</strong><small>Skills you are actively building</small></article><article><label>Completed</label><strong id="done">0</strong><small>Milestones you have reached</small></article><article><label>Average progress</label><strong id="average">0%</strong><small>Across all tracked skills</small></article></section>
+<section class="columns">
+<div class="panel" id="skills"><div class="panel-title"><div><p class="eyebrow">YOUR DEVELOPMENT</p><h2>My skills</h2></div><button class="link" id="addOpen2">＋ New skill</button></div>
+<div class="toolbar"><input id="search" placeholder="Search skills..."><select id="filter"><option value="all">All skills</option><option>Not started</option><option>In progress</option><option>Completed</option></select></div><div id="skillList"></div><p class="empty" id="empty" hidden>No skills found. Add a skill or change your filter.</p></div>
+<div class="right"><div class="panel" id="goals"><div class="panel-title"><div><p class="eyebrow">STAY FOCUSED</p><h2>Learning goals</h2></div><span class="count" id="goalCount">0/0</span></div><form id="goalForm"><input id="goalText" placeholder="Add a learning goal..." required maxlength="90"><button>＋</button></form><div id="goalList"></div></div><div class="quote"><b>“</b><p>Learning is not about being the best. It's about becoming better than you were yesterday.</p><small>YOUR DAILY REMINDER</small></div></div>
+</section><footer>Made for curious minds ✦ Keep learning, keep building.</footer>
+</main></div>
+<div class="overlay" id="overlay" hidden><form class="modal" id="skillForm"><div class="modalhead"><div><p class="eyebrow">EXPAND YOUR TOOLKIT</p><h2 id="modalTitle">Add a new skill</h2></div><button type="button" class="close" id="close">×</button></div>
+<label>Skill name<input id="name" placeholder="e.g. Java, React, Public Speaking" required maxlength="45"></label>
+<div class="twocol"><label>Category<select id="category"><option>Programming</option><option>Web Development</option><option>Data & AI</option><option>Cloud & DevOps</option><option>Soft Skills</option><option>Design</option><option>Other</option></select></label><label>Current level<select id="level"><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></label></div>
+<label>Progress <output id="percent">0%</output><input id="progress" type="range" min="0" max="100" value="0"></label>
+<label>Learning resource<input id="resource" placeholder="Course, docs, practice plan (optional)" maxlength="120"></label>
+<div class="modalactions"><button type="button" class="secondary" id="cancel">Cancel</button><button class="primary">Save skill</button></div></form></div>
+<script src="script.js"></script></body></html>
