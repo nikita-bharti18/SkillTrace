@@ -1,6 +1,6 @@
 # SkillTrace
 
-**Track your skills. Identify your gaps. Build your future.**
+**Track your skills. Identify your gaps. Build your future....**
 
 SkillTrace is a responsive skill-tracking dashboard that helps learners organize skills, monitor progress, and maintain learning goals.
 
